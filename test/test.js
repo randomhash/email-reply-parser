@@ -37,7 +37,7 @@ exports.test_reads_top_post = function(test){
     let fragments = email.getFragments();
 
     test.equal("Hi folks\n\nWhat is the best way to clear a Riak bucket of all key, values after\nrunning a test?\nI am currently using the Java HTTP API.\n\n-Abhishek Kona\n\n", reply.fragments[0].toString());
-   
+
 	test.done();
 };
 
@@ -426,6 +426,16 @@ exports.text_email_regards = function(test) {
 	let fragments = email.getFragments();
 
 	test.equal("Hi,\n\nI still have the same problem....\n\nCan you help?\n", fragments[0].toString());
+
+	test.done();
+}
+
+exports.text_email_footer = function(test) {
+	let email = get_email("email_horizontal_signature");
+
+	let stripped = email.getVisibleText();
+
+	test.equal(`Test horizontal line\n`, stripped);
 
 	test.done();
 }
