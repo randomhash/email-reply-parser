@@ -1,0 +1,5 @@
+Test horizontal line
+
+------------------------------------------------------------------------
+
+*Person name* *Director, Strategic Consulting* (M) 999-999-9999 The information contained in this email is confidential and/or legally privileged. It has been sent for the sole use of the intended recipient(s). If the reader of this message is not an intended recipient, you are hereby notified that any unauthorized review, use, disclosure, dissemination, distribution, or copying of this communication, or any of its contents, is strictly prohibited.
